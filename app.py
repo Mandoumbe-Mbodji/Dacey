@@ -8,6 +8,7 @@ def send_message():
     number = data.get('number')
     message = data.get('message')
 
+
     # Ajoutez le code pour envoyer le message à WhatsApp (par exemple, en utilisant Selenium)
 
     return jsonify({"success": True, "message": "Message sent successfully!"})
